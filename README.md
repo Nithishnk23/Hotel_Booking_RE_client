@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## Hotel Booking App
+<p><b>Description: </b> This project is a full-stack web application built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. </p> 
+<p><b>Purpose: </b>The main goal of the "Hotel Books" project is to provide users with a user-friendly platform to browse, book, and manage hotel reservations. Whether planning a vacation or a business trip, users can easily find suitable accommodations and make secure bookings.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed as a demonstration of building a modern, feature-rich web application using the MERN stack. It showcases best practices in frontend and backend development, including user authentication and CRUD operations.
 
-## Available Scripts
 
-In the project directory, you can run:
+### Project Features
 
-### `yarn start`
+- User account management, including features for signing in, and registering.
+- Automatic logout for logged-in users.
+- Validation processes for sign-in and registration forms.
+- Ability for users to search for hotels without logging in.
+- Booking functionality for users to make and view reservations.
+- Admin panel for adding, editing, and deleting hotels.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Security Measures
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Encryption of user passwords using the bcrypt algorithm for secure storage.
+- Use of JWT (JSON Web Tokens) for session management and security.
+- Proper configuration of Cors (Cross-Origin Resource Sharing) policies.
+- Use of express-validator for user input and form validation
+- Stripe is used for payment method.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running the Application
 
-### `yarn build`
+ **Frontend**:
+ 
+   - Open a new terminal and navigate to the `frontend` directory.
+   - Install dependencies: `npm install`.
+   - Start the frontend application: `npm run dev`.
+   - The application should now be running on `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  **Backend**:
+  
+   - Repository link - https://github.com/Nithishnk23/Hotel_Booking_RE_server.git
+   - Navigate to the `backend` directory.
+   - Install dependencies: `npm install`.
+   - Start the server: `npm start`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ **DEPLOYMENT**
+ 
+   - Netlify is used for deployment
+    <p align="1eft">Netlify Demo : https://hotelbookingnk.netlify.app/</p> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+**TOOLS USED**:
+ <div align="left">
+  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/72px-Google_Chrome_icon_%28February_2022%29.svg.png" height="40" alt="Google chrome logo"  />
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    
