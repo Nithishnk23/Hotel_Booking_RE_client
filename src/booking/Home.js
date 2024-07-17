@@ -12,6 +12,7 @@ const Home = () => {
 
   const loadAllhotels = async () => {
     let res = await allHotels();
+    if (Array.isArray (res.data))
     setHotels(res.data);
   };
 
